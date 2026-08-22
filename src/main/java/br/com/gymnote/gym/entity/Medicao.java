@@ -1,12 +1,12 @@
 package br.com.gymnote.gym.entity;
 
 import jakarta.persistence.*;
-import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
+
 
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "medicao")
+@Table(name = "tb_medicao")
 public class Medicao {
 
     @Id

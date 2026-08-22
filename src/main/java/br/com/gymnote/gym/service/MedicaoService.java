@@ -2,9 +2,10 @@ package br.com.gymnote.gym.service;
 
 import br.com.gymnote.gym.entity.Medicao;
 import br.com.gymnote.gym.repository.MedicaoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class MedicaoService {
 
     private final MedicaoRepository medicaoRepository;
